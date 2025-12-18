@@ -43,23 +43,23 @@ La app está desarrollada siguiendo:
 
 ## 🛠️ Tecnologías usadas
 
-- 🐦 **Flutter**
-- 🎯 **Dart**
-- 🧠 **IA vía API**
-- 🧩 **flutter_bloc**
-- 📦 **Hive**
-- 🧭 **GoRouter**
-- 🧪 Clean Architecture
+- **Flutter**
+- **Dart**
+- **IA vía API**
+- **flutter_bloc**
+- **Hive**
+- **GoRouter**
+- Clean Architecture
 
 ---
 
 ## 📱 Flujo de la app
 
-1. 🤖 Generás ideas random con IA  
-2. 👀 Explorás las opciones  
-3. ✅ Elegís una idea  
-4. 🎯 Se convierte en objetivo  
-5. 🔄 La completás o eliminás  
+1. Generás ideas random con IA  
+2. Explorás las opciones  
+3. Elegís una idea  
+4. Se convierte en objetivo  
+5. La completás o eliminás  
 
 Simple. Directo. Sin humo.
 
@@ -85,8 +85,6 @@ Ideapp existe para eso.
 
 ## 👨‍💻 Autor
 
-Desarrollado con mate, disciplina y ganas de mejorar todos los días 💪  
-
 **Alan Rosales**  
 Frontend / Flutter Dev  
 
@@ -97,9 +95,7 @@ Frontend / Flutter Dev
 Dejá una ⭐, cloná el repo o usalo como base.  
 Las ideas quieren salir a caminar.
 
-
 ---
-
 
 ## ▶️ Cómo correr el proyecto
 
@@ -110,8 +106,33 @@ Las ideas quieren salir a caminar.
 - 📱 Emulador o dispositivo físico
 - 🔐 API Key (si usás generación de ideas con IA)
 
-Verificá que Flutter esté bien instalado:
-
+### Verificá que Flutter esté bien instalado:
 ```bash
 flutter doctor
+```
 
+## 📥 Clonar el repositorio
+
+```bash
+git clone https://github.com/tu-usuario/ideapp.git
+cd ideapp
+```
+
+## 📦 Instalar dependencias
+
+```bash
+flutter pub get
+```
+
+## 🔑 Variables de entorno
+
+Si usás IA, creá un archivo .env en la raíz del proyecto:
+```bash
+API_KEY=tu_api_key_acá
+```
+
+## 🚀 Ejecutar la app
+
+```bash
+flutter run
+```
