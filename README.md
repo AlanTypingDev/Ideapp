@@ -1,5 +1,7 @@
 # 💡 Ideapp
 
+## App destinada a prueba técnica de **Digiral Arena SAS**
+
 > Generá ideas random con IA, elegí una y convertí el caos mental en objetivos claros.
 
 ---
@@ -14,6 +16,12 @@ Pensada para:
 - Definir objetivos claros
 - Dejar de procrastinar con estilo
 
+
+Así se ve **Ideapp** en acción:
+
+<p align="center">
+  <img src="assets/demo.gif" width="300" alt="Ideapp demo" />
+</p>
 ---
 
 ## ✨ Features principales
@@ -37,8 +45,6 @@ La app está desarrollada siguiendo:
 - **Repository pattern**
 - Dominio desacoplado de UI y data
 
-- Porque sí, el código también merece orden y respeto.
-
 ---
 
 ## 🛠️ Tecnologías usadas
@@ -60,17 +66,6 @@ La app está desarrollada siguiendo:
 3. Elegís una idea  
 4. Se convierte en objetivo  
 5. La completás o eliminás  
-
-Simple. Directo. Sin humo.
-
----
-
-## 🧠 Filosofía
-
-> *Las ideas sobran.  
-Lo difícil es elegir una y hacerla realidad.*
-
-Ideapp existe para eso.
 
 ---
 
